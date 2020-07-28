@@ -1,0 +1,31 @@
+<h3 mat-dialog-title>Ristra Extremely Gentle Cleansing Milk Botol 70ml</h3>
+<div mat-dialog-content>
+<mat-list>
+    <h3 matSubheader>Detail Produk</h3>
+    <mat-list-item>
+        <mat-icon matListIcon>label</mat-icon>
+        <h3 mat-line>{{data.merek}}</h3>
+        <p matLine>{{data.kode_produk}}</p>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>money</mat-icon>
+        <h3 mat-line>{{data.harga}}</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>information</mat-icon>
+        <h3 mat-line>{{data.tgl_kadaluarsa}}</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+    <mat-list-item>
+        <mat-icon matListIcon>description</mat-icon>
+        <h3 mat-line>{{data.deskripsi}}</h3>
+        <mat-divider></mat-divider>
+    </mat-list-item>
+</mat-list>
+</div>
+<mat-dialog-actions>
+    <span class="spacer"></span>
+    <button mat-button mat-dialog-close>Tutup</button>
+  </mat-dialog-actions>
